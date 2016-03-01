@@ -1,0 +1,10 @@
+// Define a variable $selector and set its value to 'article'. Then write a
+//   rule using the interpolated value of the $selector variable as selector,
+//   and set its color to #f00.
+
+
+$selector: 'article';
+
+#{$selector} {
+  color: #f00;
+}
